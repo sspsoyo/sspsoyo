@@ -1,0 +1,228 @@
+@font-face{
+    font-family: coco;
+    src: url(../font/Cocogoose-Classic-ExtraBold-trial.ttf);
+}
+
+@font-face{
+    font-family: coco2;
+    src: url(../font/Cocogoose-Classic-Medium-trial.ttf);
+}
+*{  margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: coco;
+    
+
+}
+body{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    height: 0px;
+}
+
+.title h1{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3;
+    margin-top: 3rem;
+
+}
+.title p{
+    font-size: 2rem;
+    color: #2B2B2B;
+    text-align: center;
+
+
+    
+}
+section{
+    height: auto;
+    width: 1200px;
+    overflow: hidden;
+}
+
+.concept{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+.concept img{
+    width: 100%;
+    margin-bottom: 5rem;
+}
+.design{
+margin-top: 10rem ;}
+
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.content img{
+    max-width: 40%;
+    height: auto;
+}
+
+.design h1{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 3;
+    font-family: coco;
+    margin-bottom: 5rem;
+}
+.design .wed{
+    margin-left: 1rem ;
+    width: 800px;
+    height: 500px;
+    float: left;
+    overflow: scroll;
+    border: 1px solid #2e2e2e;
+}
+.design .wed h3{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.design .wed img{
+    width: 100%;
+    
+}
+.design .mobile{
+    width: 350px;
+    height: 500px;
+    float: left;
+    overflow: scroll;
+    border: 1px solid #2e2e2e;
+    margin-left: 1rem;
+    
+}
+.design .mobile h3{
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+
+}
+.design .mobile img{
+    width: 100%;
+
+}
+footer{
+    width: 1200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap:15px;
+    padding-top: 30px;
+
+}
+
+
+footer .btn{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius:10px;
+    background-color: #f6a4af;
+    color:  #fff ;
+    font-size: inherit;
+    cursor: pointer;
+    border:none;
+  
+}
+footer .btn a{
+    text-decoration: none;
+    color: inherit;
+
+
+}
+
+
+.btn:hover{
+    background-color:#c7c0b2;
+    color: #fff;
+ 
+}
+
+
+@media (max-width:758px){
+    .project {
+        width: 758px;
+      }
+      
+
+    .image img{
+      
+        width: 740px;
+    }
+    .concept {
+        width: 758px;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        text-align: center;
+ 
+        
+      
+      }
+      
+      .concept img {
+      
+        max-width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .concept .img02{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+
+      }
+    
+      .design {
+        margin-top: 10rem;
+      }
+      
+      .content {
+        display: block; /* 가로 정렬을 해제하여 세로 배치 */
+        text-align: center; /* 이미지를 가운데 정렬 */
+        gap: initial; /* gap 속성 초기화 */
+       }
+    
+       .content img {
+      /* 기본 최대 너비 설정 초기화 */
+         width:auto; 
+         height:auto;
+         max-height:none;/* 기본 최대 높이 설정 초기화 */
+       }
+    
+    .design{
+        width: 758px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .design h1{
+        text-align: center;
+    }
+    .design .web{
+        width: 650px;
+        float: none;
+    }
+    .design .mobile{
+        width: 500px;
+        height: 350px;
+    }
+    footer{
+        width: 758px;
+    }
+}
+
+
+
+
+
