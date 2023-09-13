@@ -421,7 +421,7 @@ h6 {
 .p,
 blockquote,
 p {
-    font-size: 22px;
+    font-size: 3rem;
     line-height: 1.6363636364;
     margin-bottom: 30px;
     font-weight: 300
@@ -2051,6 +2051,8 @@ html:not(.mobile) .slide.video .background[style] {
     .slide .background {
         width:1200%;
     }
+   
+ 
 }
 
 html.mobile .hideForMobile {
