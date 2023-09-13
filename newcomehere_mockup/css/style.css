@@ -58,7 +58,7 @@ margin-top: 10rem ;
     font-family: coco;
     margin-bottom: 5rem;
 }
-.design .wed{
+.design .web{
     margin-left: 1rem ;
     width: 800px;
     height: 500px;
@@ -66,13 +66,13 @@ margin-top: 10rem ;
     overflow: scroll;
     border: 1px solid #2e2e2e;
 }
-.design .wed h3{
+.design .web h3{
     font-size: 1.7rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
-.design .wed img{
+.design .web img{
     width: 100%;
     
 }
@@ -178,7 +178,14 @@ footer .btn a{
 
 
 }
+
 @media (max-width: 420px) {
+    *{
+        margin: 0 auto;
+    }
+    body{
+        width: 100%;
+    }
     .project {
       width: 350px;
     }
@@ -190,13 +197,7 @@ footer .btn a{
       padding-left: 1rem;
       font-size: 2rem;
     }
-    .image {
-      width: 350px;
-      height: auto;
-    }
-    .image img {
-      width: 350px;
-    }
+    
     .concept {
       width: 350px;
       padding-top: 1rem;
@@ -217,11 +218,12 @@ footer .btn a{
       height: 500px;
       width: 290px;
       float: none;
+      margin-left: 2rem;
     }
     .design .mobile {
       height: 500px;
       width: 290px;
-      margin-left:0;
+      margin-left:2rem;
     }
     .footer {
       width: 350px;

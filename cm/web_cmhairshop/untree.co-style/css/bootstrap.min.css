@@ -4875,6 +4875,17 @@ input[type=submit].btn-block {
         padding-right: 0;
         padding-left: 0
     }
+    .img-fluid {
+        width: 100%;
+        height: auto;
+    }
+    .cm_logo {
+        margin: 0;
+    }
+    .bg-white .btn_history {
+        margin-left: 7rem;
+    }
+      
 }
 
 @media (min-width:576px) {
@@ -11445,5 +11456,7 @@ a.text-dark:hover {
         border-color: #dee2e6
     }
 }
+
+
 
 /*# */

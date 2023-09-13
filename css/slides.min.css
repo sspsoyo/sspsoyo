@@ -2015,7 +2015,7 @@ html:not(.mobile) .slide.video .background[style] {
         display: inline !important
     }
     .slide .background {
-        width:300%;
+        width:1000%;
     }
 }
 
@@ -2033,6 +2033,23 @@ html:not(.mobile) .slide.video .background[style] {
     }
     .slide .background {
         width:500%;
+    }
+}
+
+@media (max-width:420px) {
+    .hideForPhone {
+        display: none !important
+    }
+
+    .showForPhone {
+        display: block !important
+    }
+
+    .showForPhoneInline {
+        display: inline !important
+    }
+    .slide .background {
+        width:1200%;
     }
 }
 

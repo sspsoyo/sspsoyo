@@ -146,51 +146,38 @@ footer .btn a{
 }
 
 
-@media (max-width:758px){
-    .project {
+
+@media(max-width:768px){
+    body{
+        width: 100%;
+    }
+
+    .project{
         width: 758px;
-      }
-      
+    }
+
+    .title{
+        width: 758px;
+    }
+
+    .title h1{
+        text-align: center;
+        padding-left: 1rem;
+    }
 
     .image img{
-      
         width: 740px;
     }
-    .concept {
+
+    .concept{
         width: 758px;
-        margin-top: 1rem;
-        margin-bottom: 3rem;
-        text-align: center;
- 
-        
-      
-      }
-      
-      .concept img {
-      
-        max-width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
-      }
-    
-      .design {
-        margin-top: 10rem;
-      }
-      
-      .content {
-        display: block; /* 가로 정렬을 해제하여 세로 배치 */
-        text-align: center; /* 이미지를 가운데 정렬 */
-        gap: initial; /* gap 속성 초기화 */
-       }
-    
-       .content img {
-         max-width: initial; /* 기본 최대 너비 설정 초기화 */
-         width:auto; 
-         height:auto;
-         max-height:none;/* 기본 최대 높이 설정 초기화 */
-       }
-    
+        padding-top: 1rem;
+    }
+
+    .concept img{
+        width: 100%;
+    }
+
     .design{
         width: 758px;
         display: flex;
@@ -198,17 +185,21 @@ footer .btn a{
         align-items: center;
         gap: 2rem;
     }
+
     .design h1{
         text-align: center;
     }
+
     .design .web{
         width: 650px;
         float: none;
     }
+
     .design .mobile{
         width: 500px;
         height: 350px;
     }
+
     footer{
         width: 758px;
     }
@@ -216,5 +207,60 @@ footer .btn a{
 
 
 
-
-
+@media (max-width: 420px) {
+    *{
+        margin: 0 auto;
+    }
+    body{
+        width: 100%;
+    }
+    .project {
+      width: 350px;
+    }
+    .title {
+      width: 350px;
+    }
+    .title h1 {
+      text-align: center;
+      padding-left: 1rem;
+      font-size: 2rem;
+    }
+    
+    .concept {
+      width: 350px;
+      padding-top: 1rem;
+    }
+    .design {
+      width: 350px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+    .design h1 {
+      text-align: initial;
+      font-size: 2rem;
+      padding-left: 1rem;
+    }
+    .design .web {
+      height: 500px;
+      width: 290px;
+      float: none;
+      margin-left: 2rem;
+    }
+    .design .mobile {
+      height: 500px;
+      width: 290px;
+      margin-left:2rem;
+    }
+    .footer {
+      width: 350px;
+      padding-top:30px;
+    }
+  
+    .btn{
+      width: 5rem;
+      height: 3rem;
+      padding: 5px;
+    }
+  }
